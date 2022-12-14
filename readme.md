@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-01
 
-Segunda tarea de GoIT Proceso de texto y colores de las paginas estudio y portafolio
+Primera tarea de GoIT
