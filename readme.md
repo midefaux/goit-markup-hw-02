@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 
-Primera tarea de GoIT
+segunda tarea uso de los textos y colores
