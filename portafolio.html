@@ -11,12 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">WebStudio</a>
-        <ul>
+        <a class="logo" href="#">WebStudio</a>
+        <ul class="nav-links">
           <li>
             <a href="./index.html" target="_blank" rel="noopener noreferrer"
               >Estudio</a
@@ -24,6 +25,7 @@
           </li>
           <li>
             <a
+              id="portafolio-link"
               href="./portafolio.html"
               target="_blank"
               rel="noopener noreferrer"
@@ -37,7 +39,7 @@
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contact-us">
         <li>
           <img src="./images/email.jpg" alt="icono de email" width="16" />
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -50,16 +52,36 @@
     </header>
     <main>
       <section>
-        <ul>
-          <li><button type="button">Todo</button></li>
-          <li><button type="button">Sitio-web</button></li>
-          <li><button type="button">Aplicaciones</button></li>
-          <li><button type="button">Diseño</button></li>
-          <li><button type="button">Marketing</button></li>
+        <ul class="filter">
+          <li>
+            <button type="button" class="filter-btn-all text-filter">
+              Todo
+            </button>
+          </li>
+          <li>
+            <button type="button" class="filter-btn-web text-filter">
+              Sitio-web
+            </button>
+          </li>
+          <li>
+            <button type="button" class="filter-btn-app text-filter">
+              Aplicaciones
+            </button>
+          </li>
+          <li>
+            <button type="button" class="filter-btn-design text-filter">
+              Diseño
+            </button>
+          </li>
+          <li>
+            <button type="button" class="filter-btn-marketing text-filter">
+              Marketing
+            </button>
+          </li>
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="filter-items">
           <li>
             <img
               src="./images/members.jpg"
@@ -154,12 +176,16 @@
       </section>
     </main>
     <footer>
-      <a href="#">WebStudio</a>
+      <a class="logo" href="#">WebStudio</a>
       <address>
-        <ul>
+        <ul class="contact-us-footer">
           <li>Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
-          <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li>
+            <a href="tel:+525555296000">+52 55 5529 6000</a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
         </ul>
       </address>
     </footer>
