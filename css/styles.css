@@ -147,6 +147,7 @@ body ul {
 #filter-btn-all {
   height: 38px;
   width: 73px;
+  color: #fff;
   border-color: var(--active);
   border-radius: 4px;
   background-color: var(--active);
