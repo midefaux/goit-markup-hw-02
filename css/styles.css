@@ -9,7 +9,7 @@
   --background-footer: #2f303a;
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   color: var(--main-text);
 }
 body ul {
@@ -20,7 +20,7 @@ body ul {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 1.938em;
   letter-spacing: 0.03em;
   color: var(--active);
 }
@@ -32,6 +32,14 @@ body ul {
   color: var(--nav-text);
 }
 .nav-links a:hover {
+  text-decoration: none;
+  color: var(--active);
+}
+.nav-links a:active {
+  text-decoration: none;
+  color: var(--active);
+}
+.nav-links a:focus {
   text-decoration: none;
   color: var(--active);
 }
@@ -52,7 +60,15 @@ body ul {
   color: var(--active);
   text-decoration: none;
 }
-footer {
+.contact-us a:active {
+  color: var(--active);
+  text-decoration: none;
+}
+.contact-us a:focus {
+  color: var(--active);
+  text-decoration: none;
+}
+#footer-global {
   background-color: var(--background-footer);
   color: #fff;
 }
@@ -64,6 +80,14 @@ footer {
   text-decoration: none;
 }
 .contact-us-footer a:hover {
+  color: var(--active);
+  text-decoration: none;
+}
+.contact-us-footer a:active {
+  color: var(--active);
+  text-decoration: none;
+}
+.contact-us-footer a:focus {
   color: var(--active);
   text-decoration: none;
 }
@@ -88,26 +112,62 @@ footer {
   background-color: var(--active);
   cursor: pointer;
 }
+.btn-service:active {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875em;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+.btn-service:focus {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875em;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
 .filter {
   list-style-type: none;
 }
 .text-filter {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625em;
   letter-spacing: 0.03em;
   text-align: center;
 }
-.filter-btn-all {
+#filter-btn-all {
   height: 38px;
   width: 73px;
-  border-color: var(--background-btn-filter);
+  border-color: var(--active);
   border-radius: 4px;
-  background-color: var(--background-btn-filter);
+  background-color: var(--active);
 }
-.filter-btn-all:hover {
-  font-family: Roboto;
+#filter-btn-all:hover {
+  height: 38px;
+  width: 73px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+#filter-btn-all:active {
+  height: 38px;
+  width: 73px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+#filter-btn-all:focus {
   height: 38px;
   width: 73px;
   color: #fff;
@@ -130,6 +190,22 @@ footer {
   background-color: var(--active);
   cursor: pointer;
 }
+.filter-btn-web:active {
+  width: 128px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+.filter-btn-web:focus {
+  width: 128px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
 .filter-btn-app {
   height: 38px;
   width: 145px;
@@ -138,6 +214,22 @@ footer {
   background-color: var(--background-btn-filter);
 }
 .filter-btn-app:hover {
+  width: 145px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+.filter-btn-app:active {
+  width: 145px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+.filter-btn-app:focus {
   width: 145px;
   height: 38px;
   color: #fff;
@@ -160,6 +252,22 @@ footer {
   background-color: var(--active);
   cursor: pointer;
 }
+.filter-btn-design:active {
+  width: 103px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+.filter-btn-design:focus {
+  width: 103px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
 .filter-btn-marketing {
   height: 38px;
   width: 103px;
@@ -175,17 +283,35 @@ footer {
   background-color: var(--active);
   cursor: pointer;
 }
-.filter-items h2 {
-  font-family: Roboto;
+.filter-btn-marketing:active {
+  width: 103px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+.filter-btn-marketing:focus {
+  width: 103px;
+  height: 38px;
+  color: #fff;
+  border-color: var(--active);
+  background-color: var(--active);
+  cursor: pointer;
+}
+.filter-link {
+  color: var(--filter-text);
+  text-decoration: none;
+}
+.filter-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2.25em;
   letter-spacing: 0.06em;
   text-align: left;
 }
-.filter-items p {
+.filter-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.875em;
   letter-spacing: 0.03em;
   text-align: left;
