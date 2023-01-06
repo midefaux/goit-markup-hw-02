@@ -9,7 +9,7 @@
   --background-footer: #2f303a;
 }
 body {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   color: var(--main-text);
 }
 body ul {
@@ -37,59 +37,53 @@ body ul {
 }
 .nav-links a:active {
   text-decoration: none;
-  color: var(--active);
+  color: var(--nav-text);
 }
 .nav-links a:focus {
   text-decoration: none;
   color: var(--active);
 }
-#study-link {
+.nav-links .study-link-active {
   color: var(--active);
 }
-#portafolio-link {
+.nav-links .portafolio-link-active {
   color: var(--active);
 }
-.contact-us {
-  list-style-type: none;
-}
-.contact-us a {
+.email {
   color: var(--contact-text);
   text-decoration: none;
 }
-.contact-us a:hover {
+.email:hover {
   color: var(--active);
   text-decoration: none;
 }
-.contact-us a:active {
+.email:active {
+  color: var(--contact-text);
+  text-decoration: none;
+}
+.email:focus {
   color: var(--active);
   text-decoration: none;
 }
-.contact-us a:focus {
+.phone {
+  color: var(--contact-text);
+  text-decoration: none;
+}
+.phone:hover {
   color: var(--active);
   text-decoration: none;
 }
-#footer-global {
+.phone:active {
+  color: var(--contact-text);
+  text-decoration: none;
+}
+.phone:focus {
+  color: var(--active);
+  text-decoration: none;
+}
+.footer-global {
   background-color: var(--background-footer);
   color: #fff;
-}
-.contact-us-footer {
-  list-style-type: none;
-}
-.contact-us-footer a {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-.contact-us-footer a:hover {
-  color: var(--active);
-  text-decoration: none;
-}
-.contact-us-footer a:active {
-  color: var(--active);
-  text-decoration: none;
-}
-.contact-us-footer a:focus {
-  color: var(--active);
-  text-decoration: none;
 }
 .btn-service {
   font-size: 16px;
@@ -144,7 +138,7 @@ body ul {
   letter-spacing: 0.03em;
   text-align: center;
 }
-#filter-btn-all {
+.filter-btn-all {
   height: 38px;
   width: 73px;
   color: #fff;
@@ -152,7 +146,7 @@ body ul {
   border-radius: 4px;
   background-color: var(--active);
 }
-#filter-btn-all:hover {
+.filter-btn-all:hover {
   height: 38px;
   width: 73px;
   color: #fff;
@@ -160,7 +154,7 @@ body ul {
   background-color: var(--active);
   cursor: pointer;
 }
-#filter-btn-all:active {
+.filter-btn-all:active {
   height: 38px;
   width: 73px;
   color: #fff;
@@ -168,7 +162,7 @@ body ul {
   background-color: var(--active);
   cursor: pointer;
 }
-#filter-btn-all:focus {
+.filter-btn-all:focus {
   height: 38px;
   width: 73px;
   color: #fff;
@@ -304,6 +298,18 @@ body ul {
   color: var(--filter-text);
   text-decoration: none;
 }
+.filter-imagen {
+  border: 2px solid #fff;
+}
+.filter-imagen:hover {
+  border: 2px solid var(--active);
+}
+.filter-imagen:active {
+  border: 2px solid #fff;
+}
+.filter-imagen:focus {
+  border: 2px solid var(--active);
+}
 .filter-title {
   font-size: 18px;
   font-weight: 700;
@@ -311,9 +317,33 @@ body ul {
   letter-spacing: 0.06em;
   text-align: left;
 }
+.filter-title:active {
+  text-decoration: none;
+  color: var(--active);
+}
+.filter-title:hover {
+  text-decoration: none;
+  color: var(--active);
+}
+.filter-title:focus {
+  text-decoration: none;
+  color: var(--active);
+}
 .filter-text {
   font-size: 16px;
   line-height: 1.875em;
   letter-spacing: 0.03em;
   text-align: left;
+}
+.filter-text:active {
+  text-decoration: none;
+  color: var(--active);
+}
+.filter-text:hover {
+  text-decoration: none;
+  color: var(--active);
+}
+.filter-text:focus {
+  text-decoration: none;
+  color: var(--active);
 }

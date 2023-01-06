@@ -25,7 +25,7 @@
           </li>
           <li>
             <a
-              id="portafolio-link"
+              class="portafolio-link-active"
               href="./portafolio.html"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,22 +39,18 @@
           </li>
         </ul>
       </nav>
-      <ul class="contact-us">
-        <li>
-          <img src="./images/email.jpg" alt="icono de email" width="16" />
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <img src="./images/celphone.jpg" alt="icono de celphone" width="10" />
-          <a href="tel:+525555296000">+52 55 5529 6000</a>
-        </li>
-      </ul>
+      <img src="./images/email.jpg" alt="icono de email" width="16" />
+      <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <img src="./images/celphone.jpg" alt="icono de celphone" width="10" />
+      <a class="phone" href="tel:+525555296000">+52 55 5529 6000</a>
     </header>
     <main>
       <section>
         <ul class="filter">
           <li>
-            <button type="button" id="filter-btn-all">Todo</button>
+            <button type="button" class="filter-btn-all text-filter">
+              Todo
+            </button>
           </li>
           <li>
             <button type="button" class="filter-btn-web text-filter">
@@ -81,6 +77,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/members.jpg"
                 alt="sitio web de Tecnoduck"
                 width="370"
@@ -93,6 +90,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/poster.jpg"
                 alt="Póster de Nueva Orleans vs Estrella Dorada"
                 width="370"
@@ -107,6 +105,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/seafood.jpg"
                 alt="Aplicación para Restaurante Seafood"
                 width="370"
@@ -119,6 +118,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/earphone.jpg"
                 alt="Marketing para el Proyecto Prime"
                 width="370"
@@ -131,6 +131,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/boxes.jpg"
                 alt="Aplicación para el Proyecto Cajas"
                 width="370"
@@ -143,6 +144,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/inspiration.jpg"
                 alt="Sitio web - la inspiración no tiene límites"
                 width="370"
@@ -155,6 +157,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/limited-edition.jpg"
                 alt="Diseño soy una edición limitada"
                 width="370"
@@ -167,6 +170,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/lab-proyect.jpg"
                 alt="Marketing para Proyecto LAB"
                 width="370"
@@ -179,6 +183,7 @@
           <li>
             <a href="#" class="filter-link">
               <img
+                class="filter-imagen"
                 src="./images/growing-business.jpg"
                 alt="Aplicación para Negocio en Crecimiento"
                 width="370"
@@ -191,16 +196,18 @@
         </ul>
       </section>
     </main>
-    <footer id="footer-global">
+    <footer class="footer-global">
       <a class="logo" href="#">WebStudio</a>
       <address>
-        <ul class="contact-us-footer">
+        <ul>
           <li>Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
           <li>
-            <a href="tel:+525555296000">+52 55 5529 6000</a>
+            <a class="phone" href="tel:+525555296000">+52 55 5529 6000</a>
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="email" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
         </ul>
       </address>
